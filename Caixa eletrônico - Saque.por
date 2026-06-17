@@ -5,6 +5,7 @@ programa
 		real saldo = 1000
 		real saque
 
+    // código que valida o saldo de uma conta bancaria
 		escreva("Digite o valor do saque: ")
 		leia(saque)
 
@@ -14,7 +15,7 @@ programa
 			{
 				saldo = saldo - saque
 
-				escreva("Saque realizado!\n")
+				escreva("Saque realizado com sucesso!\n")
 				escreva("Saldo atual R$ ", saldo)
 			}
 			senao
